@@ -1,6 +1,10 @@
 call plug#begin('~/.vim/bundle')
+" Misc utilities
 Plug 'editorconfig/editorconfig-vim'
 Plug 'scrooloose/nerdtree'
+" Javascript
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
 call plug#end()
 
 
@@ -10,11 +14,14 @@ set tabstop=4 " number of spaces used for each tab
 set shiftwidth=4 " indentation spaces
 set backspace=indent,eol,start " make backspace work like most other apps
 
+
 " Line numbering and scroll config
 set mouse=a
 
+
 " makes webpack livereload work
 set backupcopy=yes
+
 
 " Nerdtree config
 " startup nerdtree whenever vim opens on a directory
@@ -22,3 +29,12 @@ autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | endif
 
 let NERDTreeShowHidden=1
+
+
+" vim-javascript config
+let g:javascript_plugin_jsdoc = 1
+
+
+" vim-jsx config
+let g:jsx_ext_required = 0
+let g:jsx_pragma_required = 0
