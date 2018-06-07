@@ -5,7 +5,13 @@ Plug 'scrooloose/nerdtree'
 " Javascript
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
+" Color scheme plugins
+Plug 'joshdick/onedark.vim'
 call plug#end()
+
+
+" Color scheme config
+colorscheme onedark
 
 
 " default space and tab config
