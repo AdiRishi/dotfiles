@@ -2,6 +2,8 @@ call plug#begin('~/.vim/bundle')
 " Misc utilities
 Plug 'editorconfig/editorconfig-vim'
 Plug 'scrooloose/nerdtree'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'christoomey/vim-system-copy'
 " Javascript
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
@@ -44,3 +46,6 @@ let g:javascript_plugin_jsdoc = 1
 " vim-jsx config
 let g:jsx_ext_required = 0
 let g:jsx_pragma_required = 0
+
+"ctrlp config
+let g:ctrlp_custom_ignore = '\v[\/](node_modules|target|dist)|(\.(swp|ico|git|svn|pyc))$'
