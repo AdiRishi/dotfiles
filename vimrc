@@ -5,7 +5,8 @@ Plug 'scrooloose/nerdtree'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'christoomey/vim-system-copy'
 Plug 'jszakmeister/vim-togglecursor'
-" Javascript
+" Syntax highlighting
+Plug 'hashivim/vim-terraform'
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
 " Color scheme plugins
