@@ -53,3 +53,7 @@ let g:jsx_pragma_required = 0
 
 "ctrlp config
 let g:ctrlp_custom_ignore = '\v[\/](node_modules|target|dist)|(\.(swp|ico|git|svn|pyc))$'
+
+
+" vim-system-copy config
+let g:system_copy#copy_command='xclip -sel clip'
