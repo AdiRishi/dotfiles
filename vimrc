@@ -11,6 +11,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'hashivim/vim-terraform'
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
+Plug 'hashivim/vim-terraform'
 " Color scheme plugins
 Plug 'joshdick/onedark.vim'
 call plug#end()
@@ -57,3 +58,6 @@ let g:ctrlp_custom_ignore = '\v[\/](node_modules|target|dist)|(\.(swp|ico|git|sv
 
 " vim-system-copy config
 let g:system_copy#copy_command='xclip -sel clip'
+
+" vim-terraform config
+let g:terraform_align=1
