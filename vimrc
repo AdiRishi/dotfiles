@@ -7,6 +7,7 @@ Plug 'christoomey/vim-system-copy'
 Plug 'jszakmeister/vim-togglecursor'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'valloric/youcompleteme'
 " Syntax highlighting
 Plug 'hashivim/vim-terraform'
 Plug 'pangloss/vim-javascript'
