@@ -63,3 +63,6 @@ let g:system_copy#copy_command='xclip -sel clip'
 
 " vim-terraform config
 let g:terraform_align=1
+
+" Youcompleteme options
+let g:ycm_autoclose_preview_window_after_insertion = 1
