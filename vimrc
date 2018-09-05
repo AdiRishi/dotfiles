@@ -9,6 +9,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'valloric/youcompleteme'
 Plug 'tpope/vim-fugitive'
+Plug 'scrooloose/nerdcommenter'
 " Syntax highlighting
 Plug 'hashivim/vim-terraform'
 Plug 'pangloss/vim-javascript'
