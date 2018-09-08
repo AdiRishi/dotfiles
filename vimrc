@@ -67,3 +67,7 @@ let g:terraform_align=1
 
 " Youcompleteme options
 let g:ycm_autoclose_preview_window_after_insertion = 1
+
+" Nerdcommenter options
+let g:NERDSpaceDelims = 1
+let g:NERDDefaultAlign = 'left'
