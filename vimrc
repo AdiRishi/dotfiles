@@ -13,6 +13,7 @@ Plug 'scrooloose/nerdcommenter'
 " Syntax highlighting
 Plug 'hashivim/vim-terraform'
 Plug 'pangloss/vim-javascript'
+Plug 'leafgarland/typescript-vim'
 Plug 'mxw/vim-jsx'
 Plug 'hashivim/vim-terraform'
 " Color scheme plugins
