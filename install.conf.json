@@ -14,7 +14,9 @@
             "~/.dotfiles": "",
             "~/.vimrc": "vimrc",
             "~/.vim": "vim/",
-            "~/.gitignore_global": "gitignore_global"
+            "~/.gitignore_global": "gitignore_global",
+            "~/.bash-git-prompt": "bash-git-prompt/",
+            "~/.bashrc": "bashrc"
         }
     },
     {
