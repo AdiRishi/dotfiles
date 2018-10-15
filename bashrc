@@ -129,3 +129,10 @@ export PATH="$HOME/bin:$PATH"
 # Add git prompt
 GIT_PROMPT_ONLY_IN_REPO=1
 source ~/.bash-git-prompt/gitprompt.sh
+
+# Arc patch function by @chriswilliams
+arcpatchall() {
+    for i in "$@"; do
+        arc patch --nobranch --skip-dependencies "$i"
+    done
+}
