@@ -136,3 +136,6 @@ arcpatchall() {
         arc patch --nobranch --skip-dependencies "$i"
     done
 }
+
+# Add cargo home
+export PATH="$HOME/.cargo/bin:$PATH"
