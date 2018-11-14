@@ -139,3 +139,5 @@ arcpatchall() {
 
 # Add cargo home
 export PATH="$HOME/.cargo/bin:$PATH"
+
+alias chromium-browser--insecure='chromium-browser --disable-web-security --user-data-dir'
