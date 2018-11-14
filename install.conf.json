@@ -2,7 +2,8 @@
     {
         "defaults": {
             "link": {
-                "relink": true
+                "relink": true,
+                "create": true
             }
         }
     },
@@ -16,7 +17,9 @@
             "~/.vim": "vim/",
             "~/.gitignore_global": "gitignore_global",
             "~/.bash-git-prompt": "bash-git-prompt/",
-            "~/.bashrc": "bashrc"
+            "~/.bashrc": "bashrc",
+            "~/.i3/config": "i3config",
+            "~/.i3/i3lock-multimonitor": "i3lock-multimonitor/"
         }
     },
     {
