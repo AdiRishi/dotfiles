@@ -19,7 +19,8 @@
             "~/.bash-git-prompt": "bash-git-prompt/",
             "~/.bashrc": "bashrc",
             "~/.i3/config": "i3config",
-            "~/.i3/i3lock-multimonitor": "i3lock-multimonitor/"
+            "~/.i3/i3lock-multimonitor": "i3lock-multimonitor/",
+            "~/.i3/wallpaper.jpg": "i3-wallpaper.jpg"
         }
     },
     {
