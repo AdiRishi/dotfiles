@@ -10,6 +10,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'valloric/youcompleteme'
 Plug 'tpope/vim-fugitive'
 Plug 'scrooloose/nerdcommenter'
+Plug 'airblade/vim-gitgutter'
 " Syntax highlighting
 Plug 'hashivim/vim-terraform'
 Plug 'pangloss/vim-javascript'
@@ -73,3 +74,6 @@ let g:ycm_autoclose_preview_window_after_insertion = 1
 " Nerdcommenter options
 let g:NERDSpaceDelims = 1
 let g:NERDDefaultAlign = 'left'
+
+" Git gutter config
+let g:gitgutter_map_keys = 0
