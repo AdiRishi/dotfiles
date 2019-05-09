@@ -18,6 +18,7 @@ Plug 'leafgarland/typescript-vim'
 Plug 'mxw/vim-jsx'
 Plug 'hashivim/vim-terraform'
 Plug 'puppetlabs/puppet-syntax-vim'
+Plug 'pprovost/vim-ps1'
 " Color scheme plugins
 Plug 'joshdick/onedark.vim'
 call plug#end()
